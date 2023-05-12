@@ -1,0 +1,591 @@
+
+
+/* HEADER START */
+.sec-1{
+    margin-top: -11px;
+}
+.state-1{
+    height: 4rem;
+}
+
+/* HEADER END */
+
+/* style start navbar */
+/* .navbar2 {
+    height:105px;
+    background-color: white;
+} */
+.container-fluid{
+    margin-left: 5rem;
+}
+.navbar-collapse{
+    margin-left: 5rem;
+}
+.same-icon{
+    margin-top:12px;
+    margin-left:10px ;
+}
+.same-icon:hover{
+    color: orange;
+}
+
+/* style end navbar */
+
+/* start slider */
+.wave{
+    margin-top:10rem;
+    margin-left: 54rem;
+}
+.bdg{
+    margin-top: 10rem;
+    margin-left: 30rem;
+    color: white;
+    background-color: orange;
+    font-size: 18px;
+}
+
+.title1{
+    /* margin-top: 10rem; */
+    font-size: 75px;
+    font-weight: 10px;
+}
+
+.text1{
+   color: white; 
+   margin-top: 10px;
+   font-size: 20px;
+}
+.wave{
+    margin: -9rem 55rem;
+}
+.wave1{
+    margin: -4rem 55rem;
+}
+.bt1{
+    margin-top: -14rem;
+    margin-left: 30rem;
+    padding: 15px 40px;
+    margin-right: 20px;
+}
+.btn1:hover{
+    background-color: rgb(61, 60, 60);
+}
+.bt2{
+    margin-top: -14rem;
+    padding: 15px 40px
+}
+.btn2:hover{
+    background-color: rgb(61, 60, 60);
+}
+
+.bt3{
+    margin-top: -3rem;
+    margin-left: 30rem;
+    padding: 15px 40px;
+    margin-right: 20px;
+}
+.btn3:hover{
+    background-color: rgb(61, 60, 60);
+}
+.bt4{
+    margin-top: -3rem;
+    padding: 15px 40px
+}
+.btn4:hover{
+    background-color:rgb(61, 60, 60);
+   
+}
+
+/* end slider */
+
+/* start main content */
+
+.head1{
+    margin-top: 7rem;
+    font-weight: 700;
+    font-size: 50px;
+}
+.btn2{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.btn2:hover{
+    background-color:rgb(61, 60, 60) ;
+    color: white;
+    border-color:rgb(61, 60, 60) ;
+}
+.card-mini{
+    margin-top: 7rem;
+    width: 15rem;
+    margin-bottom: 20px;
+}
+.card-min{
+    margin-top: 6rem;
+    width: 15rem;
+    margin-bottom: 18px;
+}
+.icons{
+    width: 60px;
+}
+.card-bon{
+    width:15rem ;}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+/* End main content */
+ /* start orange Designing */
+.orange-ban{
+    margin-top: 5rem;
+    width: 100%;
+    height: 60rem;
+    display: grid;
+    background-color:rgb(242, 157, 0) ;
+}
+.sep1{
+    margin-left: 39rem;
+    margin-top: 7rem;
+    width: 8%;
+}
+.head2{
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: -8rem;
+}
+
+.slider1{
+    margin-top: -9rem;
+}
+
+p.one {
+    margin-top: 9px;
+    border-style: ridge;
+    border-width: 1px;
+  }
+
+  span {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+
+  .card-slide{
+    width: 22rem;
+     margin-top: 3rem;
+  }
+
+  .container1 {
+    position: relative;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+ 
+  .checked {
+    color: orange;
+    background-color: transparent;
+    border-color:orange ;
+  }
+  
+  .icon-orange {
+    color: orange;
+  }
+  .blue{
+    color: blue;
+  }
+
+  .carousel-indicators {
+    bottom: -60px;
+}
+
+/* End orange Designing */
+
+/* start like most from others */
+.title3{
+    margin-top: 14rem;
+    font-weight: 700;
+    font-size: 60px;
+}
+.rcd{
+    width: 29%;
+    height: 70px;
+}
+.flex-row{
+    border: none;
+    background-color: rgb(251, 247, 254);
+}
+
+.card-title1{
+    margin-top: -9px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.card-title2{
+    margin-top: -9px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 14px;
+}
+  
+/* end like most from others */
+
+/* start our experts advisior */
+.blue-ban{
+    background-color: rgb(7, 137, 244);
+    height: 55rem;
+}
+.sep2{
+    margin-top: 8rem;
+    width: 10%;
+}
+.head3{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.social-1{
+    padding: 8px 0;
+}
+.card-ad{
+    width: 22rem; 
+    margin-top: 3rem;
+    margin-left: 23px;
+}
+
+/* end our expert advisior */
+
+/* start  course enroll */
+.head4{
+    margin: 2rem 4rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.card-border{
+    margin-top: 6rem; 
+    height: 47rem;
+}
+.enroll-course{
+    border: 5px;
+}
+
+.icon-design{
+    width: 13%;
+    height: 69px;
+    margin-left: 2rem;
+    margin-right: 12px;
+
+}
+
+.ban-design{
+    background-color: rgb(242, 157, 0);
+    margin-top: 65px;
+    margin-right: 60px;
+    height: 38rem;
+}
+.card-fields{
+    margin: 3rem 0;
+    background-color: white;
+}
+.form-design {
+    margin: -23px 0px;
+    width: 27rem;
+    height: 67px;
+}
+.side-img{
+    width: 96%;
+    margin: 10px 10px;
+    height: 99%;
+}
+
+.btn-type{
+    margin-top: 9rem;
+    margin-left: -4rem;
+    padding: 19px 40px;
+    color: white;
+    background-color: rgb(242, 157, 0) ;
+}
+.btn-type:hover{
+    background-color: rgb(52, 49, 49);
+    color: white;
+    border-color:rgb(61, 60, 60) ;
+}
+
+/* End course enroll */
+
+/* counter start */
+
+.last-ban{
+    background-color:white;
+    height: 150px;
+    margin-top: 5rem;
+}
+
+.count{
+    text-align: center;
+    color: rgb(45, 124, 221);
+    margin-top: 25px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.p-count{
+    text-align: center;
+    color: rgb(87, 87, 86);
+    font-size: 25px;
+}
+
+/* counter end */
+
+/* start last tags */
+.crd-1{
+    margin: -21rem 0;
+    padding: 22px 5px;
+}
+.wd-last{
+    width: 100%;
+    height: 30rem;
+}
+
+.tag-1{width: 20%;}
+
+/* end last tags */
+/* footer */
+.footer{
+    margin-top: 32rem;
+    background-color: rgb(9, 9, 45);
+}
+.btn5{
+float: right;
+    margin-top: -66px;
+    padding: 20px 30px;
+}
+.form-last
+{
+    width: 16rem;
+    height: 4rem;
+}
+/* footer end */
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+
+    .ban-img{ width: 106%;
+        height: 86%;
+        margin-top: 120px;}
+    .btn-type{margin-top: 5rem;}
+    .form-design{width: 15rem;}
+    .blue-ban{height: 128rem;}
+    .card-slide{margin-top: 16rem;}
+    .bdg {
+        margin-top: 2rem;
+        margin-left: 8rem;
+        font-size: 9px;
+   }
+   .bt1{margin-left: 7rem;
+    margin-top: -19rem;
+    padding: 2px 7px;}
+    .bt2{ padding: 2px 7px;
+        margin-top: -19rem;}
+    .bt3{margin-left: 7rem;
+        margin-top: -8rem;
+        padding: 2px 7px;}
+    .bt4{padding: 2px 7px;
+        margin-top: -8rem;}
+    .title1{font-size: 20px;}
+    .card-min{ margin-top: 0rem;
+        margin-left: 5rem;
+        width: 14rem;}
+    .card-mini{width: 14rem;
+        margin-left: 5rem;}
+    .card-bon{    width: 14rem;
+        margin-left: 5rem}
+    .head2{margin-top: 0rem;}
+    .card-slide{margin-top: 7rem;
+    margin-left: 26px;}
+    .orange-ban { height: 81rem; }
+    .title3{margin-top: 5rem;
+    font-size: 32px;}
+    .card-text{font-size: 12px;}
+    .card-title1{
+        font-size: 10px;
+    }
+    .card-title2{
+        font-size: 11px;
+    }
+    .sep1 {
+        margin-left: 10rem;
+        margin-top: 2rem;
+        width: 30%;
+    }
+    .footer{margin-top: 25rem;}
+    .contnt{font-size: 10px;}
+    .rcd{ height: 45px;}
+    .head1{font-size: 33px;
+    margin-top: 4rem;}
+    .card-fields{width: 89%;}
+    .last-ban{margin-top: 45rem;}
+    .crd-1{margin-top: -47rem;
+        padding: 10px 11px;
+    width: 51%;
+    margin-left: 6rem;}
+    .orange-ban{
+        height: 115rem;
+    }
+
+    .side-img{
+        margin: 8px 6px;
+    }
+    .head4{
+        margin: 5rem 4rem;
+    font-size: 2rem;
+    }
+    .btn-type{
+        margin-left: 1rem;
+    }
+
+    .wd-last{
+        margin-top: 53rem;
+    }
+
+    .ban-design{
+        margin-top: 65px;
+    margin-right: 23px;
+    height: 38rem;
+    margin-left: 32px;
+    }
+
+    .icon-design{
+        width: 23%;
+        height: 61px
+    }
+    
+
+}
+ /* START mobile */
+
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+    /* .carousel-fade{margin-top: 21rem;} */
+    .navbar2{z-index: 1000;}
+    .ban-img{ width: 109%;
+        height: 100%;}
+    .btn-type{margin-top: 5rem;}
+    .form-design{width: 15rem;}
+    .blue-ban{height: 90rem;}
+    .orange-ban{height: 75rem;}
+    .card-slide{margin-top: 16rem;}
+    .bdg {
+        margin-top: 5rem;
+        margin-left: 15rem;
+        font-size: 14px;
+   }
+   .bt1{margin-left: 18rem;
+    margin-top: -17rem;
+    padding: 2px 7px;}
+    .bt2{ padding: 2px 7px;
+        margin-top: -17rem;}
+    .bt3{margin-left: 18rem;
+        margin-top: -7rem;
+        padding: 2px 7px;}
+    .bt4{padding: 2px 7px;
+        margin-top: -7rem;}
+    .title1{font-size: 45px;}
+    .card-min{width: 10rem;}
+    .card-mini{width: 10rem;}
+    .card-bon{width:10rem ;}
+    .head2{margin-top: 0rem;}
+    .card-slide{margin-top: 7rem;}
+    .orange-ban { height: 81rem; }
+    .title3{margin-top: 8rem;}
+    .sep1 {
+        margin-left: 23rem;
+        margin-top: 3rem;
+    }
+    .footer{margin-top: 25rem;}
+    .contnt{font-size: 10px;}
+    .rcd{ height: 55px;}
+
+}
+ 
+
+   /* START LAPTOP */
+
+   @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .ban-img{ width: 109%;
+        height: 100%;}
+    .btn-type{margin-top: 5rem;}
+    .form-design{width: 22rem;}
+    .blue-ban{height: 90rem;}
+    .orange-ban{height: 75rem;}
+    .card-slide{margin-top: 16rem;}
+    .bdg {
+        margin-top: 8rem;
+        margin-left: 22rem;
+        font-size: 14px;
+   }
+   .bt1{margin-left: 24rem;
+    padding: 10px 17px;}
+    .bt2{ padding: 10px 17px;}
+    .bt3{margin-left: 24rem;
+        padding: 10px 17px;}
+    .bt4{padding: 10px 17px;}
+    .title1{font-size: 55px;}
+    .card-min{width: 12rem;}
+    .card-mini{width: 12rem;}
+    .card-bon{width:12rem ;}
+    .head2{margin-top: -5rem;}
+    .card-slide{margin-top: 9rem;}
+    .orange-ban { height: 86rem; }
+    .title3{margin-top: 8rem;}
+    .sep1 {
+        margin-left: 29rem;
+        margin-top: 3rem;
+    }
+}
+
+   /* START X-LARGE */
+
+    @media screen and (min-width: 1200px) and (max-width: 1450px) {
+        .ban-img{
+            width: 111%;}
+        .form-last {
+            width: 20rem;
+            height: 4rem;}
+            .wave1{
+                margin: -5rem 59rem;
+                width: 35rem; }
+            .wave{
+                margin: -8rem 59rem;
+                 width: 35rem; }
+            .bt3{
+                margin-top: -9rem;
+                margin-left: 32rem;  }
+            .bt4{
+                margin-top: -9rem; }
+            .bt1{margin-top: -15rem;
+                margin-left: 32rem;  }
+            .bt2{margin-top: -15rem; }
+            .form-design{ width: 32rem;}
+            .sep1{margin-left: 41rem;}
+    }
+
+ /* -------------------------------------------------NOW END MEDIA QUERIES ------------------------------------ */

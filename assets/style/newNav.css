@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.headerBgColor{
+    background-color: #4582FF;
+}
+.twitterIcon{
+    color: white;
+}
+.twitterIcon:hover{
+    color: #0b4d7c;
+}
+.instaIcon{
+    color: white;
+}
+.instaIcon:hover{
+    color: rgb(240, 61, 61);
+}
+.fontSizeIcon {
+    font-size: 0.9rem;
+    margin-left: 0.7rem;
+}
+.brandLogo{
+    padding-left: 8rem;
+}

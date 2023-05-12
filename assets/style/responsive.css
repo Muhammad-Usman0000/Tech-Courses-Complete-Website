@@ -1,0 +1,393 @@
+/* ............................ START USMAN MEDIA QUERY ..........................  */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+@media only screen and (max-width: 767px) {
+    .aboutUsHeading {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    .aboutUsHeading {
+      padding: 0rem;
+    }
+    .bg-imageAboutUs {
+      height: 6rem;
+    }
+    .firstBannerImg{
+      
+      width: 19rem;
+      border-radius: 2rem;
+    }
+    .fourthCard {
+  
+      margin-top: 3rem;
+  }
+  .letestVideoText {
+      position: absolute;
+      top: 271rem;
+  }
+  .sixBannerImage {
+  
+    height: 100vh;
+  
+    background-attachment: inherit;
+  
+  }
+  .letestVideo{
+    font-size: 0.8rem;
+    margin-top: 3rem;
+  }
+  .smallTour {
+    font-size: 0.9rem;
+    margin-top: 1rem!important;
+    padding-bottom: 0rem!important;
+  }
+  .playBtnIcon{
+    font-size: 2.5rem !important;
+  }
+  .registrBtn {
+  
+    padding: 1rem 1rem !important;
+    font-size: 0.8rem;
+  }
+  .playBtn{
+    padding-right: 0rem!important;
+    margin-top: -2rem;
+  }
+  .studentParent {
+    font-size: 2rem;
+  }
+  .carouselPara {
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0rem 4rem;
+  }
+  .mainConsultantDiv {
+    display: flex;
+    align-items: center;
+  }
+  .consultantStars {
+    float: inherit;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-left: 10rem;
+  }
+  .bgBtnArrow {
+    background-color: #664545;
+    margin-top: 30rem;
+  }
+  }
+  
+  
+  /* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+  
+  /* ...................... START TAB MEDIA QUERY ................................... */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+  
+    .frontImage{
+      text-align: center;
+    }
+    .frontText{
+      text-align: center;
+    }
+    .ourCourse{
+      justify-content: center;
+    }
+    .letestVideoText {
+      position: absolute;
+      top: 230rem;
+  }
+  .letestVideo{
+    font-size: 1rem;
+  }
+  .smallTour {
+    font-size: 1.5rem;
+    margin-top: 0rem!important;
+    padding-bottom: 0rem!important;
+  }
+  .playBtnIcon{
+    margin-top: -3rem;
+    font-size: 3.5rem !important;
+  }
+  }
+  
+  
+  /* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+  
+  /* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+  .firstBannerImg{
+    width: 26rem;
+  
+  }
+    .bannerLogo{
+  padding-top: 0rem !important;
+    }
+    .learnEducation {
+      font-size: 3rem;
+  }
+  .ourCourseButton {
+    margin-top: 1.4rem !important;
+    font-size: 1rem !important;
+  }
+  .fourthCard {
+   
+    margin-top: 3rem;
+  }
+  .cardMainDiv {
+    padding-right: 0rem !important;
+    padding-left: 8rem !important;
+  }
+  .sixBannerImage {
+  
+    height: 100vh;
+  
+  }
+  .letestVideoText {
+    position: absolute;
+    top: 167rem;
+  }
+  .letestVideo{
+    font-size: 1rem;
+  }
+  .smallTour {
+    font-size: 1.8rem;
+    margin-top: 0rem!important;
+  }
+  }
+  
+  /* ...........................CLOSE  MEDIA QUERY FOR LARGE SCREEN .............................. *
+  /* ...........................CLOSE   COMPLETE USMAN   MEDIA QUERY .............................. */
+  /* start nav media quary */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+@media only screen and (max-width: 767px){
+  .headerBgColor {
+    display: none;
+}
+  .mainHeader{
+    display: none !important;
+  }
+  .brandLogo {
+    padding-left: 0rem;
+}
+.ulSection{
+  align-items: baseline;
+}
+.rightBtn {
+  padding-left: 0rem !important;
+}
+}
+
+
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+  
+  /* ...................... START TAB MEDIA QUERY ................................... */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .brandLogo {
+      padding-left: 0rem;
+  }
+  .ulSection{
+    align-items: baseline;
+  }
+  .rightBtn{
+    padding-left: 0rem !important;
+  }
+  }
+    /* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+  
+  /* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    .brandLogo {
+      padding-left: 0rem;
+  }
+  .homeItemNav{
+    margin-left: 0rem!important;
+  }
+  .whiteSpace{
+    white-space: nowrap;
+  }
+  }
+
+    /* start footer media quary */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+@media only screen and (max-width: 767px){
+  .bgFooter {
+    padding: 5rem 2rem;
+}
+.lastLineHeading{
+  font-size: 0.7rem;
+}
+.contactHeading{
+  margin-top: 2rem;
+}
+.letterHeading{
+  margin-top: 2rem;
+}
+
+
+}
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+  
+  /* ...................... START TAB MEDIA QUERY ................................... */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .contactHeading{
+      margin-top: 2rem;
+    }
+    .letterHeading{
+      margin-top: 2rem;
+    }
+  }
+   /* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+  
+  /* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    .iconBox {
+      padding: 0.5rem;
+  }
+  }
+
+/* START SABOOR MEDIA QUERY  */
+
+/* login and Register Form mobile  */
+@media screen and (max-width: 767px) {
+
+    .submit_box{
+        display: block;
+        justify-content:none;
+    }
+    .account{
+        display: block;
+        justify-content:none;
+        padding-top: 0rem;
+    }
+
+    #login_button{
+        padding: 0.75rem 3rem;
+    }
+    .check_me{
+        padding-top: 0.50rem;
+        
+    }
+    #check_me{
+        padding-right: 0rem;
+    }
+    #lost_password{
+        padding-top: 0rem;
+        padding-left: 0rem;
+    }
+    #regiter_button{
+        padding: 0.75rem 2rem;
+    }
+    .form_margin{
+        margin-bottom: 1rem;
+    }
+
+}   
+/* login and Register Form Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .submit_box{
+        display: block;
+        justify-content:none;
+    }
+    #login_button{
+        padding: 0.75rem 2rem;
+    }
+    #check_me{
+        padding-right: 0rem;
+    }
+    #lost_password{
+        padding-top: 0.50rem;
+        padding-left: 0rem;
+    }
+    .form_margin{
+        margin-bottom: 1rem;
+    }
+}
+/* login and Register Form Laptop  */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .submit_box{
+        display: block;
+        justify-content:none;
+    }
+    #login_button{
+        padding: 0.75rem 2rem;
+    }
+    #check_me{
+        padding-right: 0rem;
+    }
+    #lost_password{
+        padding-top: 0.50rem;
+        padding-left: 0rem;
+    }
+}
+
+/* Membership Plans for mobile  */
+@media screen and (max-width: 767px) {
+
+    .basic_margin {
+        margin-bottom: 1rem;
+    }
+    .standard_margin{
+        margin-bottom: 1rem;
+    }
+    .glod_margin{
+        margin-bottom: 1rem;
+    }
+    .memberhship{
+        display: block;
+        justify-content: none;
+        padding-top: 0rem;
+    }
+
+}
+/* membership Form Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .title_text{
+        font-size: 1rem;
+    }
+    #choose_button{
+        padding: 0.75em 0.50rem;
+    }
+    #choose_button{
+        font-size: 0.75rem;
+    }
+}
+
+/* Blog Page display none for mobile  */
+@media screen and (max-width: 767px){
+    .blog_column_two{
+        display: none;
+    }
+}
+/* Blog Page display none for Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .blog_column_two{
+        display: none;
+    }
+}
+
+/* Blog_Link Page display none for mobile  */
+@media screen and (max-width: 767px){
+    .blog_link_column_two{
+        display: none;
+    }
+}
+/* Blog_Link page display none for Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .blog_link_column_two{
+        display: none;
+    }
+}
+
+
+/* end SABOOR MEDIA QUERY  */
+
+
+

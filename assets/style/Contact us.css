@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.bg-imageContact{
+    background-image: url(https://ninzio.com/edukul/wp-content/uploads/2019/11/featured-title-bg.png);
+    width: 100%;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+}
+.aboutUsHeading{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.aboutUsHeading {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .aboutUsHeading {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 82%, 48%) 0, hsl(236, 100%, 57%) 10%, hsl(318, 8%, 25%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  .bgImageCntctUs{
+    color:white;
+
+  }
+  i{
+    color:rgb(198, 171, 21);
+    transition-duration:.6s;
+  }
+  .icons-one{
+    text-align: center;
+    padding-top: 11rem;
+  }
+  .icons-Two{
+    text-align: center;
+    padding-top: 11rem;
+  }
+  .icons-Three{
+    text-align: center;
+        padding-top: 11rem;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    /* 60% {
+      background-position: 600px;
+    } */
+    100% {
+      background-position: 600px;
+    }
+  }
+   /* ............... CONTACT FIELD SECTION ...............  */
+
+  .head-1{
+    margin-top: 8rem;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .card-fields{
+    margin: 3rem 0;
+    background-color: white;
+    height: 50%;
+}
+
+.card-fields2{
+  margin: 3rem 0;
+  background-color: white;
+  height: 40%;
+}
+.btn2{
+    margin-left: 31rem;
+    margin-top: 2rem;
+    padding: 15px 20px;
+    background-color: orange;
+    color: white;
+}
+/* BANNER SECTION START */
+.ban-see1{
+  margin-top: 10rem;
+  width: 100%;
+}
+/* ......Usman Css ... */
+.bgImageCntctUs{
+  background-image: url(../images/FAQ/section-bg1.jpg);
+  width: 100%;
+  height: 30rem;
+  margin-top:5rem;
+  background-position: center;
+  background-size: cover;
+}
+/* .cardTitleCss{
+  /* margin-top: 3rem; */
+
+/* BANNER SECTION END */
+
+
+    /* start footer media quary */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+@media only screen and (max-width: 767px){
+  .btn2 {
+    margin-left: 0rem;
+  
+}
+.icons-one {
+  padding-top: 0rem;
+}
+.icons-Two {
+  padding-top: 0rem;
+}
+.icons-Three {
+
+  padding-top: 0rem;
+}
+}
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+  
+  /* ...................... START TAB MEDIA QUERY ................................... */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .aboutUsHeading {
+      font-size: 34px;
+      letter-spacing: 9px;
+   
+  }
+  .contactHeading{
+    font-size: 1rem;
+  }
+  }

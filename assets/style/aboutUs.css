@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.bg-imageAboutUs{
+    background-image: url(https://ninzio.com/edukul/wp-content/uploads/2019/11/featured-title-bg.png);
+    width: 100%;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+}
+.aboutUsHeading{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.aboutUsHeading {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .aboutUsHeading {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 82%, 48%) 0, hsl(236, 100%, 57%) 10%, hsl(318, 8%, 25%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    /* 60% {
+      background-position: 600px;
+    } */
+    100% {
+      background-position: 600px;
+    }
+  }
+
+  /* .................... THIRD SECTION ........................ */
+  .learnEducation{
+    font-size: 4rem;
+  }
+.learnEduIcon{
+    color: #FF9900;
+}
+.ourCourseButton{
+  background-color: #FF9900 !important;
+  color: white !important;
+  font-size: 1.4rem !important;
+   
+  
+}
+.ourCourseButton:hover{
+  background-color: #42495B !important;
+}
+
+.ourCoursesBtn{
+  color: white ;
+  
+  
+}
+/* .................... end THIRD SECTION ........................ */
+/* .................... start fourth SECTION ........................ */
+.bgColor{
+  /* position: relative; */
+  width: 100%;
+  background-color: #151948;
+  padding-top: 9rem;
+  padding-bottom: 20rem
+}
+.fourthCard{
+  background-color:#1C2156 !important; 
+  box-shadow: 0px 1px 20px 3px rgb(252 252 255) 
+}
+.cardIcon{
+  color: #FF9900;
+
+}
+
+/* ....................end fourth SECTION ........................ */
+/* ....................start fifth SECTION ........................ */
+.counterDigit{
+  font-size: 4rem;
+}
+.conuterSection{
+  margin-top: -11rem !important;
+  padding: 6rem 0rem;
+  /* position: absolute; */
+
+ 
+}
+/* ....................end fifth SECTION ........................ */
+/* ....................start sixth SECTION ........................ */
+.sixthSection{
+  padding-top: 5rem;
+}
+.viewMoreBtn{
+  margin-top: 1rem;
+}
+.viewMoreButton{
+  background-color: #FF9900 !important;
+  color: white !important;
+  font-size: 1.4rem !important;
+  margin-top: -10rem;
+
+}
+
+
+.viewMoreButton:hover{
+  background-color: #42495B !important;
+
+}
+.meetHeading{
+  font-size: 5rem
+}
+
+ 
+ /* START SLIDER */
+ .bgSplideCss{
+  background-color: #F8F8F8;
+ }
+ .redIcon
+{
+  color: black;
+ }
+ .redIcon:hover
+ {
+   color: rgb(194, 3, 3)
+  }
+ /* END SLIDER */
+/* ....................end sixth SECTION ........................ */
+/* ....................start 7th SECTION ........................ */
+.sixBannerImage{
+  background-image: url(../images/aboutUsPage/startup-g73c0245e0_1280.jpg);
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: brightness(0.3);
+  position: relative;
+}
+.letestVideoText{
+  position: absolute;
+  top: 166rem;
+  padding-left: 4rem;
+  
+}
+.smallTour{
+  font-size: 3.5rem;
+  
+}
+.registrationBtn{
+  margin-top: 2rem !important;
+}
+.registrBtn{
+  background-color: transparent;
+  outline: 2px solid white;
+
+  
+}
+.registrBtn:hover{
+  background-color: white;
+  color: black !important;
+
+}
+
+.playBtnIcon{
+  color: #FF9900;
+  outline: 2px solid rgb(239, 255, 239);
+  border-radius: 3rem; 
+}
+.playBtnIcon:hover{
+  color: #ffffff;
+  outline: 2px solid #FF9900;
+  border-radius: 3rem; 
+}
+.forBottomPad{
+  padding-bottom: 5rem;
+}
+
+/* ....................end 7th SECTION ........................ */
+/* ....................start 8th SECTION ........................ */
+.studentParent{
+  font-size: 4rem;
+}
+.carouselPara{
+  line-height: 2rem;
+  text-align: justify;
+  padding: 0rem 10rem;
+}
+.bgBtnArrow{
+  background-color: #664545;
+  margin-top: 2rem;
+}
+.mainConsultantDiv{
+  display: flex;
+  padding-left: 10rem;
+  align-items: center;
+}
+.consultantImg{
+  border-radius: 3rem;
+}
+.consultantName{
+  text-align: justify;
+}
+
+.consultantStars {
+  color: #ff9900;
+  float: right;
+  margin-top: -3rem;
+  margin-right: 9rem;
+}
+
+/* ....................end 8th SECTION ........................ */
+
+
+
+
+
+
+
+

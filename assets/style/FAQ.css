@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.bg-imageFAQ{
+    background-image: url(https://ninzio.com/edukul/wp-content/uploads/2019/11/featured-title-bg.png);
+    width: 100%;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+}
+.aboutUsHeading{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.aboutUsHeading {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .aboutUsHeading {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 82%, 48%) 0, hsl(236, 100%, 57%) 10%, hsl(318, 8%, 25%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    /* 60% {
+      background-position: 600px;
+    } */
+    100% {
+      background-position: 600px;
+    }
+  }
+ /* third section start */
+
+  .btn1{
+    width: 100%;
+    color: black;
+    background-color: #00b8ff1a;
+    border-color:#00b7ff30;
+  }
+  .btn1:hover{
+    background-color: #00b8ff1a;
+    color: orange;
+    border-color: #00b8ff1a;
+  }
+ 
+  .card-one{
+    margin-top: 5rem;}
+   /* position: inherit;
+    min-width: 550px;
+    z-index: 1;
+  } */
+
+  .dropdown-first {
+    position: relative;
+    display: inline-block;
+    width: 100%
+  }
+  .dropdown-second {
+    position: relative;
+    display: inline-block;
+    width: 100%
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: white;
+    min-width: 550px;
+    z-index: 1;
+  }
+  .dropbtn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: azure;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn-1 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    
+  }
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  /* third section end  */
+
+  
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */ 
+/* start mobile */
+@media screen and (max-width: 766px) {}
+
+
+ /* START mobile */
+
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+
+    .dropdown-content{
+        min-width: 200px;
+    }
+ }
+
+    /* START LAPTOP */
+
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        .dropdown-content{
+            min-width: 400px;
+        }
+    }
+
+     /* START X-LARGE
+
+     @media screen and (min-width: 1200px) and (max-width: 1450px) {
+     }
+ */
+
+
+  

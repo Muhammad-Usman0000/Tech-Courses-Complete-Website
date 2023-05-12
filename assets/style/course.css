@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Cinzel:wght@500&family=Open+Sans:wght@300&family=Pacifico&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.top-banner {
+    background: url(/assets/images/background-white.avif) no-repeat center;
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+
+}
+
+.rowCss {
+    justify-content: space-around;
+    white-space: nowrap;
+    align-items:center ;
+}
+.row_CSS2{
+  justify-content: center;
+  white-space: nowrap;
+}
+.banner-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.banner-text ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: none;
+    margin-left: none;
+    display: inline-block;
+
+}
+
+.banner-text a {
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 2rem;
+
+
+}
+
+/* .breadcrumb {} */
+
+/* .inner-wrap{
+    padding: 4rem 0px;
+} */
+
+/* .tabel{
+    display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 60%;
+} */
+.row h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+
+}
+
+.breadcrumb-item {
+    margin-top: 4rem;
+    /* padding-left: 25rem; */
+    /* position: absolute; */
+
+    display: inline-block;
+}
+#MenuItem a{
+  color: darkgrey;
+
+}
+.main_ul a{
+  color: darkgrey;
+}
+
+
+/* =================================2nd-SECTION CSS========================= */
+
+#MenuItem {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+
+
+}
+
+#MenuItem li {
+    list-style: none;
+
+}
+
+#MenuItem li a {
+    padding: 33px;
+    text-decoration: none;
+}
+
+.mainpages {
+    margin-top: 6rem;
+    border: 2px solid rgb(227, 224, 224);
+    border-radius: 22px;
+    padding: 14px;
+    padding-top: 24px;
+    margin-left: 15rem;
+    width: 70%;
+    border-top-width: thick;
+}
+/* -------------------CARD-SECTION-------------------- */
+article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  article h2 {
+    margin: 0 0 18px 0;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .article-body {
+    padding: 24px;
+  }
+  
+  article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+  }
+  
+  article a:focus {
+    outline: 1px dotted #28666e;
+  }
+  
+  article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+  }
+  
+  /* using the has() relational pseudo selector to update our custom properties */
+  article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #28666e;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  
+  /************************ 
+  Generic layout (demo looks)
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    /* padding: 48px 0; */
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    /* background-image: linear-gradient(45deg, #7c9885, #b5b682); */
+    min-height: 100vh;
+  }
+  
+  .articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  /* ----------------------------LAPTOP SCREEN RESPONSIVE-------------------------- */
+  @media only screen and (min-width:1024px){
+    .breadcrumb-item{
+        padding-left: 0px;
+    }
+    #MenuItem li a{
+       padding: 22px;
+    }
+    .mainpages{
+      margin-left: 9rem;
+    }
+  }
+  @media only screen and (max-width:796px) {
+    .mainpages{
+        margin-left: 0;
+        width: 100%;
+    }
+    .main_ul{
+      padding-left: 6rem !important;
+      
+      
+    }
+    .row h2{
+      font-size: 2rem !important;
+    }
+    .rowCss{ 
+      justify-content: flex-start;
+
+    }
+
+    #MenuItem{
+      text-align: center;
+      flex-direction: column;
+    }
+   
+   
+    
+  }
+  /* ----------------------MOBILE-LARGE-SCREEN---------------------------- */
+  /* @media only screen and (min-width:425px) {
+    #MenuItem{
+       flex-wrap: wrap;
+    }
+    .row h2{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+   .row{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+  } */
+  /* @media screen and (max-width: 375px) and (min-width: 320px){
+    /* .row h2{
+        font-size: 1rem;
+    } */
+  /* } */
+   
+  
+  @media  only screen and (max-width: 960px) {
+    /* article { */
+      /* container: card/inline-size; */
+    /* } */
+    .article-body p {
+      display: none;
+    }
+  }
+  
+  @container card (min-width: 380px) {
+    .article-wrapper {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 16px;
+    }
+    .article-body {
+      padding-left: 0;
+    }
+    figure {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    figure img {
+      height: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+  
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }

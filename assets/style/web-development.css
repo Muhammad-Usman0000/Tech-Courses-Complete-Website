@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Cinzel:wght@500&family=Open+Sans:wght@300&family=Pacifico&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+ 
+}
+
+/* -------------------------------TOP_BANNER_IMAGE_ONLY-------------------------- */
+.top-banner {
+    background: url(/assets/images/background-white.avif) no-repeat center;
+    width: 100%;
+    height: 10rem;
+    max-width: 150%;
+    background-size: cover;
+}
+/* ----------------------------------TOP_BANNER_IMAGE_END------------------------- */
+
+/* ----------------------inside BOOTstrap padding OF ROW-START------- */
+.rowclass{
+    --bs-gutter-x: 2.5rem !important;
+
+
+
+}
+
+/* ----------------------inside BOOTstrap padding OF ROW-END------- */
+.row {
+    justify-content: space-between;
+    /* white-space: nowrap; */
+    /* align-items: center; */
+    /* padding-top: 3rem; */
+
+}
+.grid h2{
+    font-size: 3rem;
+}
+/* ----------------------------MAIN_BANNER-START----------------------- */
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner-text ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: none;
+    margin-left: none;
+    display: inline-block;
+}
+
+.banner-text a {
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 2rem;
+}
+/* ----------------------------------MAIN_BANNER_END------------------------------- */
+/* --------------------------------BREAD_CRUM_CSS-START--------------------- */
+
+.breadcrumb-item {
+  
+
+    display: inline-block;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #616161;
+}
+
+.nav-bread {
+    padding-left: 13rem;
+    font-size: 18px;
+}
+/* --------------------------------BREAD_CRUM_CSS-END------------------- */
+
+/* -------------------------------------------------image info start--------------------- */
+.info {
+    /* border: 1px solid #f3dede; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    padding-left: 5px;
+}
+
+hr {
+    width: 50rem;
+
+}
+
+.lecture {
+    padding: 0px 42px;
+}
+
+.five-review {
+    padding-left: 3rem;
+}
+
+.rating {
+    padding-left: 4rem;
+    white-space: nowrap;
+    padding-right: 4rem;
+}
+
+.btn {
+    margin-left: 1rem;
+}
+/* -------------------------------IMAGE_INFO-END-------------------------- */
+
+/* -----------------SEARCH_BAR_START------------------- */
+.search_input input {
+    border: none;
+    background-color: #0d6efd;
+}
+
+.search_input {
+    border-bottom: 1px solid white;
+   
+}
+
+.search {
+    
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: -9rem;
+}
+.description p{
+    text-align: justify;
+}
+
+
+/* -------------------------CARD_CSS_START------------------------- */
+.card {
+  
+    margin-left: 2rem;
+    margin-right: -9rem;
+    margin-bottom: 57.1rem;
+   
+    
+}
+.small-card{
+    margin-left: 7rem;
+    
+}
+.card-body{
+    height: 20rem;
+    width: 20rem;
+}
+
+::placeholder {
+    color: aliceblue;
+}
+.course-info-title{
+    padding-left: 12rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* ---------------------------REVIEW-CARD_EXTRAA_COLOR_SCHEME_ for-FUTURE_USE--------------- */
+.Review-card {
+    background: radial-gradient(50% 123.47% at 50% 50%, #0040ff 0%, #260072 100%),
+        linear-gradient(121.28deg, #000000 0%, #ff0000 100%),
+        linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+        radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+        radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    height: 50vh;
+/* ---------------------------REVIEW CARD_COLOR SCHEME END----------------- */
+   
+
+
+}
+.svgs{
+    margin-left: 14rem;
+     overflow: hidden; 
+     cursor: pointer;
+     margin-top: 6rem;
+}
+
+/* ---------------------------------Rating_Review-------------------------- */
+.Rating_review {
+    font-size: 6rem
+}
+
+.Zero-border {
+    border: 2px solid red;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+
+}
+/* -----------------------COLOR_SCHEME_OF_CARDS_HTML+CSS+JS---------------------- */
+:root {
+    --color-text: #616161;
+    --color-text-btn: #ffffff;
+    --card1-gradient-color1: #f12711;
+    --card1-gradient-color2: #f5af19;
+    --card2-gradient-color1: #7F00FF;
+    --card2-gradient-color2: #E100FF;
+    --card3-gradient-color1: #3f2b96;
+    --card3-gradient-color2: #a8c0ff;
+    --card4-gradient-color1: #11998e;
+    --card4-gradient-color2: #38ef7d;
+}
+
+/* body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  } */
+  /* ---------------------EXTRA_SIDE_CARD_START_HTML+CSS+JS-------------------- */
+.card-wrap {
+    background: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    color: var(--color-text);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    /* width: 200%; */
+    margin-top: 2rem;
+    margin-left: -17rem;
+    width: 388px;
+
+}
+
+.Css-card {
+    padding-bottom: 30px;
+}
+
+.Html-card {
+    padding-bottom: 30px;
+}
+
+.card-wrap:hover {
+    transform: scale(1.1);
+}
+
+.card-header {
+    height: 122px;
+    width: 100%;
+    background: red;
+    border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.card-header i {
+    color: #fff;
+    font-size: 72px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.card-text {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 30px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+.card-header.one {
+    background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+
+.card-header.two {
+    background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+
+.card-header.three {
+    background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+
+.card-header.four {
+    background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+
+.card-btn.one {
+    background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+
+.card-btn.two {
+    background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+
+.card-btn.three {
+    background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+
+.card-btn.four {
+    background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+/* -----------------------EXTRA_SIDE_CARD_END--------------------------- */
+/* ----------------------------LAPTOP SCREEN RESPONSIVE-------------------------- */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+    .info{
+        
+        height: 4%;
+    }
+    .btn {
+        margin-left: 0 !important;
+    }
+
+    .rating {
+        margin-right: -32px;
+        padding-left: 0;
+    }
+
+    .categerory {
+        padding-right: 24px;
+    }
+
+    .lecture {
+        padding: 0px 31px;
+    }
+
+    .mainAboutUsAndBreadCrumbsSection {
+        margin-left: 0rem;
+    }
+
+    .nav-bread {
+        padding-left: 8rem !important;
+    }
+
+    .search {
+        margin-left: 1rem;
+        margin-right: -5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        width: 133%;
+        margin-left: 1rem;
+        height: 12%;
+        margin-bottom: 39rem;
+        margin-right: 12rem;
+
+    }
+    .card-header{
+        height: 85px;
+    }
+    .small-card{
+        margin-left: 0;
+    }
+
+    hr {
+        margin: 0 !important;
+        margin-left: 4rem;
+        width: 135%;
+    }
+
+    
+
+  .btn{
+        padding: 0.5rem 2rem;
+        margin-right: 0 !important;
+    }
+
+    .card-wrap {
+        width: 289px;
+        margin-left: -187px;
+    
+    }
+    .side-cards-Extra{
+        margin-top: 58rem;
+    }
+    .svgs{
+        margin-left: 5rem !important;
+        overflow: hidden;
+        margin-top: 10rem;
+        cursor: pointer;
+    }
+    .card-body{
+        margin-left: 6rem;
+    }
+}
+
+/* ------------------------------MEDIA-Query-FOR-TAB----------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .search {
+        display: none !important;
+    }
+ .card{
+   display: none !important;
+ }
+ .info{
+    width: 0% !important;
+ }
+.main-img{
+    width: 84%;
+}
+.small-card{
+    margin-left: 4rem;
+    text-align: center;
+}
+.side-cards-Extra{
+    display: none !important;
+}
+.row{
+    width: 100%;
+}
+.top-banner{
+    width: 100% !important;
+}
+hr{
+    width: 45rem;
+}
+.card-body{
+    width: 36rem !important;
+    padding: 0 0rem !important;
+    height: 0rem !important;
+}
+.grid{
+    margin-bottom: -2.5rem !important;
+}
+.course-info-title{
+    padding-left: 0rem;
+    text-align: center;
+    white-space: nowrap;
+}
+.svgs{
+    margin-left: 12rem;
+}
+.rating{
+    padding-right: 2rem;
+}
+button{
+    margin-right:0px !important ;
+}
+
+}
+/* -------------------START-MEDIA_QUERY FOR-MOBILE-SCREEN--------------------- */
+@media only screen and (max-width: 767px) {
+   .search{
+    display: none !important;
+   }
+   .card{
+    display: none !important;
+   }
+   .side-cards-Extra{
+    display: none !important;
+   }
+   .nav-bread{
+    padding-left: 0 !important;
+   }
+   .main-img{
+    padding: 2rem;
+  
+   }
+   .main-img img{
+    width: 100% !important;
+   }
+   .title{
+    padding-left: 2rem;
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+   }
+   .info{
+    flex-wrap: wrap !important;
+    padding-left: 36px !important;
+   }
+   .rating{
+    padding-left: 0rem !important;
+   }
+   hr{
+    width: 25rem !important;
+    margin: 4rem 7px !important;
+   }
+   .btn{
+     padding: 0rem 2rem !important;
+
+    margin-left: 5rem !important;
+   }
+   
+   .uper-hr{
+    margin: 1rem 0.5rem!important;
+    width: 25rem !important;
+   }
+   .lecture{
+    padding: 0px 22px;
+   }
+   .description{
+    padding: 1px 26px;
+   }
+   .Title-2{
+    padding: 1px 35px;
+   }
+   .svgs{
+    margin-left: 4rem !important;
+    overflow: hidden !important;
+    margin-top: 12rem !important;
+   }
+   .form-control{
+    width: 88% !important;
+    margin-left: 10px !important;
+   }
+   .grid h2{
+    font-size: xxx-large;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    
+   }
+   .breadcrumb-item{
+    padding-left: 6rem;
+   }
+   .row{
+    padding-top: 0 !important;
+   }
+   .card-body{
+    width: 20rem;
+   }
+   .top-banner{
+    width: 110% !important;
+   }
+   .small-card{
+    margin-left: 6rem;
+   }
+   .course-info-title{
+    padding-left: 4rem !important;
+   }
+  
+  } 
+
+
